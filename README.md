@@ -23,7 +23,16 @@ Feel free to clone, explore, and contribute! Let’s make learning about the cos
 
 <br>
 Here are some demo pictures showcasing the project.
-![pic4](https://github.com/user-attachments/assets/c0d9880a-bdab-4cc9-a405-a246bd1d6cc7)
+<br>
+![pic1](https://github.com/user-attachments/assets/afe79683-a7c4-40e4-acb7-828abdcc9596)
+<br>
+![pic2](https://github.com/user-attachments/assets/c6e531c8-3889-4cda-aa6c-6317d3350e23)
+<br>
+![pic3](https://github.com/user-attachments/assets/7935b8e4-5e7d-499b-a0ba-15ca867c804b)
+<br>
+![pic4](https://github.com/user-attachments/assets/2cd5a87e-9238-47d9-abf0-0d760d27e4cb)
+
+
 
 
 
