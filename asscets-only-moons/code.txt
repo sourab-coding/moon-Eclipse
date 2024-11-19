@@ -1,0 +1,940 @@
+  <!-- <div class="conatiner_main_content_middle_moon">
+        <div class="conatiner_red_moon_bg_heading">
+            <h1 class="heading_for_middle_moon">
+                Mid torality
+            </h1>
+        </div>
+        <div class="red_moon_img_container">
+            <div class="conatiner_content_middle_moon_img">
+                <div class="conatiner_img_chnager_">
+                    
+                </div>
+            </div>
+            <div class="conatiner_content_middle_moon_left">
+                <h1 class="left_paragraph_middle_moon">
+                    The Moon is still partly covered by the Earth’s shadow but is gradually brightening up as more light reaches it. The shadow is slowly moving away, revealing a mix of light and dark areas on the Moon's surface. This marks the transition from a mostly dark Moon back to the brightness of a Full Moon.
+                </h1>
+            </div>
+        </div>
+      </div>
+      <div class="slide_main_container_content_3">
+        <div class="conatiner_paragraph_left_side_3">
+            <div class="conatiner_sub_container_3">
+                <div class="content_3_">
+                    <div class="heading_conatiner_content_luner_eclipes_3">
+                        <h1 class="container_lunner_eclipes_3">
+                            Before Eclipse
+                        </h1>
+                    </div>
+                    <div class="conatiner_paragraph_content_1_lunner_eclipes_bottom_3">
+                    <p class="paragraph_content_luner_eclipes_3">
+                        1. The Moon is fully illuminated and looks like a regular Full Moon. No shadow is visible on its surface. This is the starting point before the eclipse begins.
+                        <p class="_second_point_3">
+                            2.This phase can be observed easily, marking the calm before the celestial event begins.
+                        </p>
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_center_image_animations_3">
+            <div class="conatiner_center_image_lunner_3">
+                <div class="container_img_center_3">
+                    <img src="/asscets-page-3/mid-partical.jpg.png" alt="" class="img_before_1">
+                    
+                </div>
+               
+            </div>
+            
+        </div>
+
+        <div class="conatiner_paragraph_right_3">
+           
+        </div>
+     </div>
+ -->
+
+
+     <!-- page - 7 - right -->
+
+     <!-- <div class="slide_main_container_content_3">
+        <div class="conatiner_paragraph_left_side_3">
+            
+        </div>
+        <div class="container_center_image_animations_3">
+            <div class="conatiner_center_image_lunner_3">
+                <div class="container_img_center_3">
+                    <img src="/asscets-page-3/begin-torality.jpg.png" alt="" class="img_before_1">
+                </div>
+            </div>
+        </div>
+        <div class="conatiner_paragraph_right_3">
+            <div class="conatiner_sub_container_3">
+                <div class="content_3_">
+                    <div class="heading_conatiner_content_luner_eclipes_3">
+                        <h1 class="container_lunner_eclipes_3">
+                            Before Eclipse
+                        </h1>
+                    </div>
+                    <div class="conatiner_paragraph_content_2_lunner_eclipes_bottom_3">
+                    <p class="paragraph_content_luner_eclipes_3">
+                        1. The Moon is fully illuminated and looks like a regular Full Moon. No shadow is visible on its surface. This is the starting point before the eclipse begins.
+                        <p class="_second_point_3">
+                            2.This phase can be observed easily, marking the calm before the celestial event begins.
+                        </p>
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+     </div> -->
+.slide_main_container_content{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asscets-page-3/stars-7-bg_lunner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+
+}
+.conatiner_paragraph_left_side{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conatiner_sub_container_1{
+    height: 175vh;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* first */
+.content_1_{
+    height: 500px;
+    width: 450px;
+  margin: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading_conatiner_content_luner_eclipes{
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+ 
+
+}
+
+.conatiner_paragraph_content_1_lunner_eclipes_bottom{
+    height: 100px;
+    width: 500px;
+    transform: translateY(-30px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    opacity:0;
+
+
+}
+.conatiner_paragraph_content_1_lunner_eclipes_bottom:hover{
+    transform:translateY(100px);
+    opacity: 1;
+}
+.container_lunner_eclipes_1{
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraph_content_luner_eclipes{
+    text-align: center;
+    padding: 2px;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+
+}
+._second_point{
+    text-align: center;
+    padding: 2px;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_center_image_animations{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.conatiner_center_image_lunner_1{
+    height: 175vh;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.img_before_1{
+    height: 500px;
+    width: 900px;
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.img_before_1:hover{
+    transform: scale(1.190);
+}
+.conatiner_paragraph_right{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page - 5 right */
+.slide_main_container_content_2{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asscets-page-3/stars-7-bg_lunner.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat;
+
+}
+.conatiner_paragraph_left_side_2{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conatiner_sub_container_2{
+    height: 175vh;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* img */
+
+.container_center_image_animations_2{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.conatiner_center_image_lunner_2{
+    height: 185vh;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+/* right */
+.conatiner_paragraph_right_2{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conatiner_sub_container_2{
+    height: 185vh;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.content_2_{
+    height: 500px;
+    width: 450px;
+  margin: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading_conatiner_content_luner_eclipes_2{
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+ 
+
+}
+
+.conatiner_paragraph_content_2_lunner_eclipes_bottom_2{
+    height: 100px;
+    width: 500px;
+    transform: translateY(-30px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    opacity:0;
+
+
+}
+.conatiner_paragraph_content_2_lunner_eclipes_bottom_2:hover{
+    transform:translateY(100px);
+    opacity: 1;
+}
+.container_lunner_eclipes_2{
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraph_content_luner_eclipes_2{
+    text-align: center;
+    padding: 2px;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+
+}
+._second_point_2{
+    text-align: center;
+    padding: 2px;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+/* page-3 - left */
+.slide_main_container_content_3{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asscets-page-3/stars-7-bg_lunner.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat;
+
+}
+.conatiner_paragraph_left_side_3{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conatiner_sub_container_3{
+    height: 185vh;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* first */
+.content_3_{
+    height: 500px;
+    width: 450px;
+  margin: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading_conatiner_content_luner_eclipes_3{
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+ 
+
+}
+
+.conatiner_paragraph_content_1_lunner_eclipes_bottom_3{
+    height: 100px;
+    width: 500px;
+    transform: translateY(-30px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    opacity:0;
+
+
+}
+.conatiner_paragraph_content_1_lunner_eclipes_bottom_3:hover{
+    transform:translateY(100px);
+    opacity: 1;
+}
+.container_lunner_eclipes_3{
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraph_content_luner_eclipes_3{
+    text-align: center;
+    padding: 2px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+
+}
+._second_point_3{
+    text-align: center;
+    padding: 2px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_center_image_animations_3{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.conatiner_center_image_lunner_3{
+    height: 185vh;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.conatiner_paragraph_right_3{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px 
+}
+
+
+
+
+/* page -4 - right */
+.slide_main_container_content_3{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(/stars-1.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat; */
+
+}
+.conatiner_paragraph_left_side_3{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conatiner_sub_container_3{
+    height: 175vh;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* img */
+
+.container_center_image_animations_3{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.conatiner_center_image_lunner_3{
+    height: 185vh;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+/* right */
+.conatiner_paragraph_right_3{
+    height: 200vh;
+    width: 30vw;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conatiner_sub_container_3{
+    height: 185vh;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.content_3_{
+    height: 500px;
+    width: 450px;
+  margin: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading_conatiner_content_luner_eclipes_3{
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+ 
+
+}
+
+.conatiner_paragraph_content_2_lunner_eclipes_bottom_3{
+    height: 100px;
+    width: 500px;
+    transform: translateY(-30px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    opacity:0;
+
+
+}
+.conatiner_paragraph_content_2_lunner_eclipes_bottom_3:hover{
+    transform:translateY(100px);
+    opacity: 1;
+}
+.container_lunner_eclipes_3{
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraph_content_luner_eclipes_3{
+    text-align: center;
+    padding: 2px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+
+}
+._second_point_3{
+    text-align: center;
+    padding: 2px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* middle red _ moon - animations -   */
+.conatiner_middle_content_main{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+    background-image: url(/asscets-page-3/galaxy-stars.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+.conatiner_middle_content_main:hover{
+    background-position: bottom;
+}
+
+.conatiner_red_moon_sun{
+    height: 900px;
+    width: 900px;
+    background-image: url(/hot-sun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    animation-name: sunmove5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes sunmove5 {
+        0% {
+            transform: translateY(-200px);
+        }
+        100% {
+            transform: translateY(0); 
+        }
+    }
+    
+
+
+.conatiner_red_moon_earth{
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+    position: relative;
+    top: 20px;
+    right: 500px;
+    animation: earth_move 22s linear infinite;
+    background-image: url(/earth-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+@keyframes  earth_move {
+    0% {
+        transform: translateX(0); /* Starting position */
+      }
+      50% {
+        transform: translateX(1155px); /* Final position reached at 50% */
+      }
+      100% {
+        transform: translateX(1155px); /* Remain at final position till 100% */
+      }
+}
+
+.conatiner_mid_red_moon{
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+    position: relative;
+    top: 20px;
+    left:  500px;
+    animation: moon_move 22s linear infinite;
+    background-image: url(/earth-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes moon_move {
+    0% {
+        transform: translateX(-0);
+        background-image: url('/asscets-only-moons/full-moon.jpg.png'); /* Image 1 */
+    }
+    14% {
+        background-image: url('/asscets-only-moons/moon-2.png'); /* Image 2 */
+    }
+    28% {
+        background-image: url('/asscets-only-moons/moon-3.png'); /* Image 3 */
+    }
+    42% {
+        background-image: url('/asscets-only-moons/moon-4.png'); /* Image 4 */
+    }
+    57% {
+        background-image: url('/asscets-only-moons/moon-9.png'); /* Image 9 */
+    }
+    71% {
+        background-image: url('/asscets-only-moons/moon-10.png'); /* Image 10 */
+    }
+    85% {
+        transform: translateX(-1047px);
+    }
+    100% {
+        transform: translateX(-1047px);
+        background-image: url('/asscets-only-moons/moon-13.png'); /* Back to Image 1 */
+    }
+}
+
+
+
+
+
+/* red - moon - middle- one */
+
+.conatiner_main_content_middle_moon{
+    height: 106vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/asscets-page-3/galaxy-stars.jpg);
+    background-position: top;
+
+
+
+}
+
+
+
+.conatiner_red_moon_bg_heading{
+    height: 100px;
+    width: 90vw;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading_for_middle_moon{
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.red_moon_img_container{
+    height: 600px;
+    width: 90vw;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    opacity: 1;
+    
+
+}
+
+.conatiner_content_middle_moon_img{
+    height: 800px;
+    width: 500px;
+    background-image: url(/asscets-page-3/min-totality.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    right: 200px;
+    
+
+
+}
+
+.conatiner_content_middle_moon_left{
+    height: 800px;
+    width: 600px;
+    position: relative;
+    top: 40px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-delay: .1s;
+    transform: translateX(-100%);
+    opacity: 0;
+
+    
+}
+.left_paragraph_middle_moon{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.conatiner_content_middle_moon_left:hover{
+    transform: translateX(1px);
+    opacity: 1;
+}
+
+
+.conatiner_img_chnager_{
+    border: 1px solid black;
+    height: 800px;
+    width: 700px;
+    position: relative;
+    top: 0px;
+    left: 255%;
+    background-image: url(/asscets-page-3/earth-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

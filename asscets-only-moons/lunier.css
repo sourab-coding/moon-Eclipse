@@ -1,0 +1,5199 @@
+* {
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    overflow: hidden;
+}
+.conatiner_nav_bar {
+    height: 5vh;
+    background: #000;
+    overflow: hidden;
+
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+
+}
+
+.conatner_for_the_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    border: 1px solid rgb(0, 0, 0);
+    width: 80vw;
+    background-color: rgba(0, 0, 0, 0.596);
+    position: relative;
+    border-radius: 20px;
+    justify-content: space-around;
+    left: 300px;
+    bottom: 34px;
+
+
+}
+
+.navname_1 {
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px white;
+    color: black;
+    word-spacing: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    ;
+    animation-name: change_color1;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes change_color1 {
+    0% {
+        text-shadow: red 1px 2px 10px;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 1s;
+
+    }
+
+    45% {
+        text-shadow: rgb(0, 34, 255) 1px 2px 10px;
+    }
+
+    85% {
+        text-shadow: rgb(255, 111, 0) 1px 2px 10px;
+    }
+
+    100% {
+        text-shadow: rgb(0, 255, 238) 1px 2px 10px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+
+}
+
+a:hover {
+    animation-name: change_color;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font: 900;
+    font-size: 23px;
+
+}
+
+@keyframes change_color {
+    0% {
+        color: white;
+        text-shadow: red 1px 2px 10px;
+
+    }
+
+    45% {
+        color: white;
+        text-shadow: rgb(0, 34, 255) 1px 2px 10px;
+    }
+
+    85% {
+        color: white;
+        text-shadow: rgb(255, 111, 0) 1px 2px 10px;
+    }
+
+    100% {
+        color: white;
+        text-shadow: rgb(0, 255, 238) 1px 2px 10px;
+    }
+}
+
+
+
+
+
+
+/* hero */
+.conatiner_main_videos_and_the_bg_photo_heading_title {
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background: #000;
+
+}
+
+.video_bg_moon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 160%;
+    object-fit: cover;
+}
+
+.box_heading_content {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: relative;
+    bottom: 60px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_about_eath {
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.797);
+    transition-duration: 1s;
+    color: transparent;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1ms;
+
+
+
+}
+
+.heading_about_eath:hover {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.442);
+}
+
+
+
+
+.box_paragraph_content {
+    height: 200px;
+    width: 100px;
+    position: relative;
+    bottom: 50px;
+    margin: 10px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.conatiner_img_moon {
+    position: absolute;
+    width: 500px;
+    /* Size of the Moon */
+    height: 500px;
+    left: 50%;
+    overflow: hidden;
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    top: 700px;
+    right: 500px;
+    transform: translate(100%);
+    animation: moveMoon 10s infinite;
+    animation-duration: 30s;
+}
+
+@keyframes moveMoon {
+    0% {
+        transform: rotate(0deg) translateX(400px) rotate(0deg);
+        background-image: url('/asscets-only-moons/full-moon.jpg.png');
+        /* Image 1 */
+    }
+
+    9% {
+        background-image: url('/asscets-only-moons/moon-2.png');
+        /* Image 2 */
+    }
+
+    18% {
+        background-image: url('/asscets-only-moons/moon-3.png');
+        /* Image 3 */
+    }
+
+    27% {
+        background-image: url('/asscets-only-moons/moon-4.png');
+        /* Image 4 */
+    }
+
+    36% {
+        background-image: url('/asscets-only-moons/moon-5.png');
+        /* Image 5 */
+    }
+
+    45% {
+        background-image: url('/asscets-only-moons/moon-6.png');
+        /* Image 6 */
+    }
+
+    54% {
+        background-image: url('/asscets-only-moons/moon-7.png');
+        /* Image 7 */
+    }
+
+    63% {
+        background-image: url('/asscets-only-moons/moon-8.png');
+        /* Image 8 */
+    }
+
+    72% {
+        background-image: url('/asscets-only-moons/moon-9.png');
+        /* Image 9 */
+    }
+
+    81% {
+        background-image: url('/asscets-only-moons/moon-10.png');
+        /* Image 10 */
+    }
+
+    90% {
+        background-image: url('/asscets-only-moons/moon-11.png');
+        /* Image 11 */
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(400px) rotate(-360deg);
+        background-image: url('/asscets-only-moons/moon-13.png');
+        /* Back to Image 1 */
+    }
+}
+
+.conatiner_img_sun {
+    width: 700px;
+    height: 600px;
+    position: relative;
+    left: 30%;
+    bottom: 300px;
+    background-image: url(/sun.jpag.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    animation: sun 10s linear infinite;
+    animation-duration: 300s;
+
+}
+
+
+@keyframes sun {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_img_box_content {
+    height: 80vh;
+    width: 90vw;
+    margin: 10px;
+    position: relative;
+    top: 25px;
+    background-image: url(/bg-earth-1.jpg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 10s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* pag -2  */
+
+#container_main_moon_eclipes_annulur {
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+
+
+
+}
+
+
+.container_total_clips_images_sub {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    background-color: black;
+
+
+
+
+}
+
+.heading_for_container {
+    height: 100px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    animation: autoshow both;
+    animation-timeline: view();
+
+}
+
+@keyframes autoshow {
+    from {
+        opacity: 0.5;
+        transform: translateY(200px) scale(0.1);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(1) scale(2);
+    }
+
+}
+
+
+
+.heading_for_main_container_ {
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: transparent;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.container_moon_images_content_1 {
+    height: 500px;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.background_moon_1 {
+    background-image: url(/asscets-page-2/moon-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    animation-name: moon-circle-slow1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes moon-circle-slow1 {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+.container_moon_images_content_2 {
+    height: 500px;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.background_moon_2 {
+    background-image: url(/asscets-page-2/moon-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    animation-name: moon-circle-slow2;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moon-circle-slow2 {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+.container_moon_images_content_3 {
+    height: 500px;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.background_moon_3 {
+    background-image: url(/asscets-only-moons/moon-13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    animation-name: moon-circle-slow3;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moon-circle-slow3 {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.container_moon_images_content_4 {
+    height: 500px;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.background_moon_4 {
+    background-image: url(/asscets-page-2/moon--1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    animation-name: moon-circle-slow4;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moon-circle-slow4 {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+
+
+
+.container_moon_images_content_5 {
+    height: 500px;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.background_moon_5 {
+    background-image: url(/asscets-page-2/moon--4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    animation-name: moon-circle-slow5;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moon-circle-slow5 {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+._moon_phases1 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* page -3  */
+
+.moon_main_container_mian {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.container_annulur_eclip {
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asscets-page-3/lunar.jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.conatiner_heading_lunner {
+    height: 200px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunner_heading_ {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+
+}
+
+.lunner_paragraph {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transform: translateY(250px);
+    opacity: 0;
+
+}
+
+.lunner_pagraph_content {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+.lunner_paragraph:hover {
+    opacity: 1;
+    transform: translateY(-150px);
+}
+
+
+
+
+.container_total_eclip {
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asscets-page-3/total.jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Total_paragraph {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transform: translateY(-150px);
+
+}
+
+.Total_paragraph:hover {
+    transform: translateY(220px);
+}
+
+.Total_pagraph_content {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.conatiner_heading_Total {
+    height: 200px;
+    width: 500px;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Total_heading_ {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+.container_partical_eclip {
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asscets-page-3/particel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.conatiner_heading_pratical {
+    height: 200px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pratical_heading_ {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.pratical_paragraph {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transform: translateY(250px);
+    opacity: 0;
+
+}
+
+.pratical_pagraph_content {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+.pratical_paragraph:hover {
+    opacity: 1;
+    transform: translateY(-150px);
+}
+
+
+
+
+
+
+
+/* page - 4 */
+.slide_main_container_content {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asscets-page-3/stars-7-bg_lunner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+}
+
+.conatiner_paragraph_left_side {
+    height: 200vh;
+    width: 30vw;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conatiner_sub_container_1 {
+    height: 175vh;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* first */
+.content_1_ {
+    height: 500px;
+    width: 450px;
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading_conatiner_content_luner_eclipes {
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+    animation: autoshow both;
+    animation-timeline: view(70% 5%);
+
+}
+
+@keyframes autoshow {
+    from {
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(1) scale(2);
+    }
+
+}
+
+
+
+
+.conatiner_paragraph_content_1_lunner_eclipes_bottom {
+    height: 100px;
+    width: 500px;
+    transform: translateY(-30px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    opacity: 0;
+
+
+}
+
+.conatiner_paragraph_content_1_lunner_eclipes_bottom:hover {
+    transform: translateY(100px);
+    opacity: 1;
+}
+
+.container_lunner_eclipes_1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragraph_content_luner_eclipes {
+    text-align: center;
+    padding: 2px;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+
+}
+
+._second_point {
+    text-align: center;
+    padding: 2px;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.container_center_image_animations {
+    height: 200vh;
+    width: 30vw;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.conatiner_center_image_lunner_1 {
+    height: 175vh;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    animation: autoshow both;
+    animation-timeline: view(70% 5%);
+
+}
+
+@keyframes autoshow {
+    from {
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(1) scale(2);
+    }
+
+}
+
+
+.img_before_1 {
+    height: 500px;
+    width: 900px;
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.img_before_1:hover {
+    transform: scale(1.190);
+}
+
+.conatiner_paragraph_right {
+    height: 200vh;
+    width: 30vw;
+    margin: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* animation of the */
+
+.conatiner_luner_eclipes_heading_galary {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    overflow: hidden;
+    z-index: -20;
+}
+
+.h1_luner_eclipes_gallary {
+
+    color: rgba(255, 255, 255, 0.628);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    z-index: 100;
+
+}
+
+.conatiner_sun_img1_gallery {
+    background-image: url(/sun.jpag.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 500px;
+    position: relative;
+    left: 30px;
+    top: 90px;
+    width: 500px;
+    z-index: 1000;
+}
+
+.conatiner_earth_img1_gallery {
+    background-image: url(/earth-1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    height: 500px;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    width: 500px;
+    z-index: -20;
+}
+
+.conatiner_moon_img1_gallery {
+    background-image: url(/red-moon.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 500px;
+    position: relative;
+    left: 5px;
+    bottom: 20px;
+    width: 500px;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+/* middle red _ moon - animations -   */
+.conatiner_luner_eclipes_heading {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.h1_luner_eclipes {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vw;
+
+}
+
+.conatiner_middle_content_main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: row;
+    background-image: url(/asscets-page-3/galaxy-stars.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.conatiner_middle_content_main:hover {
+    background-position: bottom;
+}
+
+.conatiner_red_moon_sun {
+    height: 900px;
+    width: 900px;
+    background-image: url(/hot-sun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    animation-name: sunmove5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sunmove5 {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+.conatiner_red_moon_earth {
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+    position: relative;
+    top: 20px;
+    right: 500px;
+    animation: earth_move 22s linear infinite;
+    background-image: url(/earth-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+@keyframes earth_move {
+    0% {
+        transform: translateX(0);
+        /* Starting position */
+    }
+
+    50% {
+        transform: translateX(1155px);
+        /* Final position reached at 50% */
+    }
+
+    100% {
+        transform: translateX(1155px);
+        /* Remain at final position till 100% */
+    }
+}
+
+.conatiner_mid_red_moon {
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+    position: relative;
+    top: 20px;
+    left: 500px;
+    animation: moon_move 22s linear infinite;
+    background-image: url(/earth-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes moon_move {
+    0% {
+        transform: translateX(-0);
+        background-image: url('/asscets-only-moons/full-moon.jpg.png');
+        /* Image 1 */
+    }
+
+    14% {
+        background-image: url('/asscets-only-moons/moon-2.png');
+        /* Image 2 */
+    }
+
+    28% {
+        background-image: url('/asscets-only-moons/moon-3.png');
+        /* Image 3 */
+    }
+
+    42% {
+        background-image: url('/asscets-only-moons/moon-4.png');
+        /* Image 4 */
+    }
+
+    57% {
+        background-image: url('/asscets-only-moons/moon-9.png');
+        /* Image 9 */
+    }
+
+    71% {
+        background-image: url('/asscets-only-moons/moon-10.png');
+        /* Image 10 */
+    }
+
+    85% {
+        transform: translateX(-1047px);
+    }
+
+    100% {
+        transform: translateX(-1047px);
+        background-image: url('/asscets-only-moons/moon-13.png');
+        /* Back to Image 1 */
+    }
+}
+
+
+
+
+/* top and bottom earth - luner */
+.conatiner_9_types_main_luner_ {
+    height: 150vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.conatiner_eath_left_side {
+
+    height: 145vh;
+    width: 80vw;
+    overflow: hidden;
+    margin: 1px;
+    position: relative;
+    z-index: 3;
+    left: 60px;
+    background-image: url(/asscets-page-3/earth.big.png);
+    background-position: left;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.div_before_moon {
+
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 700px;
+    width: 10vw;
+    background-image: url(/asscets-page-3/before-eclipes.jpg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.before_moon_h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    height: 40px;
+    opacity: 0;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.before_moon_h1:hover {
+    transform: translateY(-70px);
+    opacity: 1;
+
+}
+
+
+
+
+
+.div_earler_moon {
+    height: 300px;
+    position: relative;
+    bottom: 190px;
+    left: 450px;
+    width: 13vw;
+    background-image: url(/asscets-page-3/early-partical.jpg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earler_moon_h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+
+
+
+}
+
+.earler_moon_h1:hover {
+    transform: translateY(-80px);
+    opacity: 1;
+
+}
+
+
+
+
+.div_mid_moon {
+
+    height: 500px;
+    position: relative;
+    bottom: 450px;
+    left: 180px;
+    width: 13vw;
+    background-image: url(/asscets-page-3/mid-partical.jpg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_moon_h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+
+}
+
+.mid_moon_h1:hover {
+    transform: translateY(-170px);
+    opacity: 1;
+}
+
+.div_begin_moon {
+
+    height: 550px;
+    position: relative;
+    bottom: 650px;
+    left: 50px;
+    width: 14vw;
+    background-image: url(/asscets-page-3/begin-torality.jpg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.begin_moon_h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+}
+
+.begin_moon_h1:hover {
+    transform: translateY(-150px);
+    opacity: 1;
+}
+
+
+
+
+.div_mid_center_moon {
+
+    height: 550px;
+    position: relative;
+    bottom: 850px;
+    left: 150px;
+    width: 14vw;
+    background-image: url(/asscets-page-3/min-totality.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_center_moon_h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+}
+
+.mid_center_moon_h1:hover {
+    transform: translateY(-150px);
+    opacity: 1;
+}
+
+.div_End_moon {
+
+    height: 550px;
+    position: relative;
+    bottom: 1200px;
+    left: 450px;
+    width: 14vw;
+    background-image: url(/asscets-page-3/end-totality.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.before_end_h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+}
+
+.before_end_h1:hover {
+    transform: translateY(150px);
+    opacity: 1;
+}
+
+
+.div_End_mid_moon {
+
+    height: 450px;
+    position: relative;
+    bottom: 1680px;
+    left: 780px;
+    width: 14vw;
+    background-image: url(/asscets-page-3/mid-partical.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.before_end_mid_h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+}
+
+.before_end_mid_h1:hover {
+    transform: translateY(150px);
+    opacity: 1;
+}
+
+
+.div_End_late_moon {
+
+    height: 300px;
+    position: relative;
+    bottom: 2180px;
+    left: 1010px;
+    width: 14vw;
+    background-image: url(/asscets-page-3/late-partical.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.before_end_late_h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+}
+
+.before_end_late_h1:hover {
+    transform: translateY(150px);
+    opacity: 1;
+}
+
+
+
+.div_End_after_moon {
+
+    height: 200px;
+    position: relative;
+    bottom: 2680px;
+    left: 1150px;
+    width: 14vw;
+    background-image: url(/asscets-page-3/afterr-eclipes.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.before_end_after_h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    -webkit-text-stroke: white 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    opacity: 0;
+}
+
+.before_end_after_h1:hover {
+    transform: translateY(120px);
+    opacity: 1;
+}
+
+
+
+
+
+/* details luner */
+
+.conatiner_main_conatiner_for_moons_details {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+
+}
+
+.conatiner_upper_1 {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+
+}
+
+.conatiner_1_box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.conatiner_1_box:hover {
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_1 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_1 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p1 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_1 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+.conatiner_2_box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_2_box:hover {
+    transform: translateY(-20px);
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_2 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_2 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p2 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_2 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.conatiner_3__box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.546);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_3__box:hover {
+    transform: translateY(-20px);
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_3 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_3 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p3 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_3 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.conatiner_4__box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.546);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_4__box:hover {
+    transform: translateY(-20px);
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_4 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_4 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p4 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_4 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conatiner_down_1 {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+
+
+.conatiner_5_box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.546);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_5_box:hover {
+    transform: translateY(-20px);
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_5 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_5 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p5 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_5 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+.conatiner_6_box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.546);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_6_box:hover {
+    transform: translateY(-20px);
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_6 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_6 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p6 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_6 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.conatiner_7_box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.546);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_7_box:hover {
+    transform: translateY(-20px);
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_7 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_7 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p7 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_7 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+.conatiner_8_box {
+    height: 70vh;
+    width: 23vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.546);
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_8_box:hover {
+    transform: translateY(-20px);
+    border: 1px solid white;
+    transform: translateY(-10px);
+    animation-name: box_color_change;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_color_change {
+    10% {
+        box-shadow: 1px 2px 10px #d4d4dc;
+        /* Bright Moonlight Gray */
+    }
+
+    40% {
+        box-shadow: 1px 2px 20px #ff4b5c;
+        /* Blood Moon Red */
+    }
+
+    80% {
+        box-shadow: 1px 2px 50px #3d2c3e;
+        /* Dark Shadowed Purple */
+    }
+
+    100% {
+        box-shadow: 1px 2px 90px #1b1b2f;
+        /* Deep Midnight Blue */
+    }
+}
+
+.heading_box_iteams_8 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background: #000;
+    border-radius: 20px;
+}
+
+.heading_8 {
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conatiner_paragraph_box_p8 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.paragraph_moon_8 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* imgs-gallery */
+
+.conatiner_img_gallary_in_the_showcse {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conatiner_imgs {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(/asscets-toatl-5/c1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.img_changer_conatiner_ {
+    position: relative;
+    top: 30px;
+    margin: 10px;
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conatiner_1_btn_1 {
+    border: 1px solid rgb(0, 0, 0);
+    height: 10px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.451);
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#conatiner_1_btn_1:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#conatiner_2_btn_2 {
+    height: 10px;
+    width: 40px;
+    border-radius: 20px;
+    background: blue;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.451);
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conatiner_2_btn_2:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#conatiner_3_btn_3 {
+    height: 10px;
+    width: 40px;
+    border-radius: 20px;
+    background: blue;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.451);
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conatiner_3_btn_3:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#conatiner_4_btn_4 {
+    height: 10px;
+    width: 40px;
+    border-radius: 20px;
+    background: blue;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.451);
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conatiner_4_btn_4:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#conatiner_5_btn_5 {
+    height: 10px;
+    width: 40px;
+    border-radius: 20px;
+    background: blue;
+    margin: 10px;
+    background-image: url();
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn1_h1 {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.btn1_h1:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    transform: translateY(-20px);
+}
+
+.btn1_h2 {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.btn1_h2:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    transform: translateY(-20px);
+}
+
+.btn1_h3 {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.btn1_h3:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    transform: translateY(-20px);
+}
+
+.btn1_h4 {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.btn1_h4:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    transform: translateY(-20px);
+}
+
+.btn1_h5 {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.btn1_h5:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .100s;
+    transform: translateY(-20px);
+}
+
+
+
+/* details about the eclieps */
+.conatiner_details_about_eclieps_main {
+    height: 70vh;
+    display: flex;
+    background-image: url(/stars-964022_1280.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner_details_abot_eclieps_main_p_h {
+    height: 60vh;
+    width: 60vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h1_details_h1 {
+    margin: 10px;
+    height: 7vh;
+    width: 57vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.heading_details_lu_pa_to  {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: white 1px;
+    letter-spacing: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+
+}
+
+.paragraph_p1 {
+    margin: 10px;
+    height: 30vh;
+    width: 55vw;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paragraph_lu_pa_to {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+
+}
+
+.conatiner_img_eclipes {
+    height: 70vh;
+    width: 40vw;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.conatiner_sun_lu_pa_tu {
+
+    height: 500px;
+    width: 600px;
+    position: relative;
+    bottom: 100px;
+    background-image: url(/sun.jpag.png);
+    background-position: bottom;
+}
+
+.conatiner_moon_lu_pa_tu {
+    height: 200px;
+    width: 100px;
+    background-image: url(/asscets-page-3/afterr-eclipes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    animation-name: moon-circle-slow1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes moon-circle-slow1 {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+.conatiner_earth_lu_pa_tu {
+    height: 1000px;
+    width: 700px;
+    position: relative;
+    top: 100px;
+    background-image: url(/earth-1.png);
+    background-position: top;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+
+
+}
+
+.conatiner_earth_lu_pa_tu:hover {
+    background-position: center;
+}
+
+/* info details */
+#conatiner_infor_about_eclipes_main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background: #000;
+    align-items: center;
+}
+
+.conatiner_eclipes_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 50vw;
+    margin: 10px;
+}
+
+.conatiner_eclipes_selector {
+    border: 1px solid rgb(255, 255, 255);
+    background: #000;
+    height: 50px;
+    border-radius: 120px;
+    margin: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#conatiner_luner_1 {
+    border: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+
+}
+
+#conatiner_luner_1:hover {
+    transform: scale(1.010);
+    box-shadow: 1px 2px 6px white;
+}
+
+.luner_heading1 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#conatiner_toatl_2 {
+    border: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+
+}
+
+#conatiner_toatl_2:hover {
+    transform: scale(1.010);
+    box-shadow: 1px 2px 6px white;
+}
+
+
+.total_heading2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#conatiner_partical_3 {
+    border: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+
+}
+
+#conatiner_partical_3:hover {
+    transform: scale(1.010);
+    box-shadow: 1px 2px 6px white;
+}
+
+.partical_heading3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#conatiner_details_storing_ {
+    height: 70vh;
+    width: 40vw;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details_in_comiping {
+    height: 50vh;
+    width: 30vw;
+    display: inline;
+    overflow: scroll;
+    padding: 10px;
+    transition-duration: 10s;
+    transition-delay: 10s;
+}
+
+#conatiner_img_eclipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 40vw;
+    margin: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.paragraph_get {
+    color: rgb(255, 255, 255);
+    background-image: url();
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+
+
+
+
+}
+
+.headings_1_luner {
+    color: rgb(255, 255, 255);
+    background-image: url();
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.paragraph_total {
+    color: rgb(255, 255, 255);
+    background-image: url();
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#loading_1 {
+    height: 100px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.dot1 {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    animation-name: dot1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+@keyframes dot1 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.dot2 {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    animation-name: dot2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+@keyframes dot2 {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.dot3 {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    animation-name: dot3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+@keyframes dot3 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.dot4 {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    animation-name: dot4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+@keyframes dot4 {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+/* count down  */
+
+
+.conatiner_count_down_for_the_eclipes {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000000fe;
+    overflow: hidden;
+
+
+
+
+}
+
+.conatiner_haeding_ {
+    height: 15vh;
+    width: 70vw;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.conatiner_h1__moon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_1_moon {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    letter-spacing: 10px;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 1px 2px 10px rgb(83, 2, 2);
+}
+
+.conatiner__moon_luner_eclipes_ {
+    height: 50vh;
+    width: 30vw;
+    background-image: url(moon-13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+
+}
+
+.conatiner_moon_2 {
+    position: relative;
+    bottom: 100px;
+    left: 400px;
+    height: 70vh;
+    width: 30vw;
+    background-image: url(/asscets-page-3/begin-torality.jpg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+
+.conatiner_moon_3 {
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    height: 80vh;
+    width: 30vw;
+    background-image: url(/asscets-page-3/end-totality.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+
+
+.conatiner_countdown {
+
+    height: 20vh;
+    width: 80vw;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conatiner_count_down_1 {
+
+    height: 5vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.conatiner_visability {
+
+    height: 10vh;
+    width: 60vw;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visiablility {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.668);
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+._1 {
+    color: rgba(183, 169, 183, 0.815);
+    font-size: 40px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#months {
+    color: #2f4b7c;
+    font-size: 60px;
+    padding: 10px;
+}
+
+#days {
+    color: #7a5195;
+    font-size: 60px;
+    padding: 10px;
+}
+
+#hours {
+    color: #ffa600;
+    font-size: 60px;
+    padding: 10px;
+}
+
+#minutes {
+    color: #ef5675;
+    font-size: 60px;
+    padding: 10px;
+}
+
+#seconds {
+    color: #d45087;
+    font-size: 60px;
+    padding: 10px;
+}
+
+#countdown {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.668);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* luner_ eclipes_ animations - animations */
+.conatiner_luner_eclipes_heading_animations1 {
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner_earth_img1 {
+    background-image: url(/full-moon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;
+    width: 200px;
+    z-index: 1000;
+}
+
+.conatiner_earth_img2 {
+    background-image: url(/asscets-page-3/min-totality.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 200px;
+    position: relative;
+    left: 1090px;
+    top: 10px;
+    width: 200px;
+    z-index: 1000;
+}
+
+.conatiner_earth_img3 {
+    background-image: url(/asscets-page-3/annulur.jpg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top: 40px;
+    width: 600px;
+    z-index: 1;
+}
+
+.h1_luner_eclipes_animations1 {
+
+    color: hsl(0, 10%, 88%);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+
+
+}
+
+.conatiner_luner_eclipes_heading_animations2 {
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    overflow: hidden;
+}
+
+.h1_luner_eclipes_animations2 {
+    color: #998d8dca;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+
+}
+
+.conatiner_luner_eclipes_heading_animations3 {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    overflow: hidden;
+    z-index: 10;
+
+}
+
+.h1_luner_eclipes_animations3 {
+    color: #596265;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+    right: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* total eclipes */
+.conatiner_total_eclipes {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    overflow: hidden;
+
+
+}
+
+.conatiner_moon_partical_eclipes_sun {
+    z-index: 2;
+    height: 90vh;
+    width: 70vw;
+    position: absolute;
+    left: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/sun.jpag.png);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+
+}
+
+.conatiner_moon_partical_eclipes_earth {
+    z-index: 100;
+    height: 90vh;
+    width: 70vw;
+    position: absolute;
+    left: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/earth-1.png);
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+
+}
+
+.conatiner_moon_partical_eclipes_1 {
+    height: 100vh;
+    width: 20vw;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.conatiner_img_total_1 {
+    height: 30vh;
+    width: 19vw;
+    background-image: url(/totallandingpage/after.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+}
+
+.conatiner_moon_partical_eclipes_1 {
+    height: 100vh;
+    width: 20vw;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.conatiner_img_total_2 {
+    height: 30vh;
+    width: 19vw;
+    background-image: url(/totallandingpage/4-img.jpg.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+}
+
+.conatiner_moon_partical_eclipes_2 {
+    height: 100vh;
+    width: 20vw;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.conatiner_img_total_3 {
+    height: 30vh;
+    width: 19vw;
+    background-image: url(/totallandingpage/center-5-.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+}
+
+.conatiner_moon_partical_eclipes_3 {
+    height: 100vh;
+    width: 20vw;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.conatiner_img_total_4 {
+    height: 30vh;
+    width: 19vw;
+    background-image: url(/totallandingpage/7-img.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+
+}
+
+.conatiner_moon_partical_eclipes_4 {
+    height: 100vh;
+    width: 20vw;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.conatiner_img_total_5 {
+    height: 30vh;
+    width: 19vw;
+    background-image: url(/totallandingpage/8-img.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 300px;
+}
+
+.conatiner_moon_partical_eclipes_5 {
+    height: 100vh;
+    width: 20vw;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.conatiner_moon_partical_eclipes_1_heading {
+    z-index: 20;
+    height: 30vh;
+    width: 70vw;
+    position: absolute;
+    left: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.heading_toal_landing_page {
+    font-size: 9vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: rgb(110, 92, 92);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-shadow:  5px rgb(255, 255, 255);
+    letter-spacing: 7px;
+
+}
+
+
+
+
+
+
+
+
+
+/* page-2 */
+
+.conatiner_page_2_informations{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    background: #000;
+   
+}
+.conatiner_two_components{ 
+    height: 200vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: 500px;
+    
+}
+
+.container_sun_img{
+    background-image: url(/sun.jpag.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    height: 800vh;
+    position: relative;
+    top: 900px;
+    z-index: 0;
+    width: 99vw;
+}
+.conatiner_center_moons_page_two_moons{
+    height: 45vh;
+    width: 97vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.conatiner_moon_right__page_2{
+    height: 40vh;
+    width: 25vw;
+    margin: 10px;
+    background-image: url(/totallandingpage/after.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+}
+.conatiner_moon_center__page_2{
+    height: 40vh;
+    width: 25vw;
+    background-image: url(/totallandingpage/center-5-.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+
+}
+
+.conatiner_moon_left__page_2{
+    height: 40vh;
+    width: 25vw;
+    background-image: url(/totallandingpage/7-img.png);
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 20px;
+  
+}
+
+
+
+/* main_heading _ page_2 */
+.conatiner_info_all_page_2_heading{
+    height: 25vh;
+    width: 97vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* sub-headings */
+.conatiner_heading_1{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter_1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: "Cinzel", serif;
+}
+
+
+
+.conatiner_heading_2{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.letter_2{
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-family: "Cinzel", serif;
+    color: rgb(255, 255, 255);
+   
+}
+
+
+
+
+
+.conatiner_heading_3{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter_3{
+    font-size: 8vw;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Cinzel", serif;
+}
+.conatiner_heading_4{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter_4{
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Cinzel", serif;
+}
+.conatiner_heading_5{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter_5{
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Cinzel", serif;
+}
+/* .hedaing_page_2{
+    text-align: center;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+} */
+
+
+
+
+
+
+
+/* pagraph_ page2  */
+.conatiner_info_all_page_2_deatils_pargarph{
+    height: 23vh;
+    width: 97vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conatiner_content_1{
+    height: 62vh;
+    width: 95vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.paragraph_1_page_2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(119, 89, 18);
+    text-transform: uppercase;
+    font-family: "Cinzel", serif;
+
+}
+.paragraph_1_page_2:hover{
+    color: #596265;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* page_3 */
+.conatiner_page_3main{
+    height: 500vh;
+    display: flex;
+    justify-content: start;
+    align-items: safe;
+    flex-direction: column;
+    background: #000;
+    
+
+}
+.conatiner_bg_of_astroid{
+    margin: 1px;
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 10;
+    background-image: url(/totallandingpage/astr-1/astro-sets.png);
+    background-position: left;
+    background-size: 1900px;
+    background-repeat: no-repeat;
+   
+}
+
+
+.heading_conatiner_p3{
+    margin: 10px;
+    height: 30vh;
+    display: flex;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+}
+.main_heading_{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-style: normal;
+    font-size: 10vw;
+    color: white;
+}
+
+/* sub */
+.conatiner_sub_p3{
+    margin: 10px;
+    height: 470vh;
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    justify-content: start;
+    align-items: safe;
+    z-index: 10;
+}
+
+/* first */
+
+.conatiner_first_p3_{
+    margin: 10px;
+    height: 468vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conatiner_p_1_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_1{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_1_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_2_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading_p1_2{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_2_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_3_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_3{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_3_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+    
+
+.conatiner_p_4_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_4{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_4_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_5_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_5{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_5_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+
+.conatiner_p_6_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_6{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_6_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_7_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_7{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_7_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_8_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_8{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_8_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_9_p3_left{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_9{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_9_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conatiner_center_p3_{
+    margin: 10px;
+    height: 468vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conatiner_img_1_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+
+    background-image: url(/totallandingpage/moon-showcase/top-0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700;
+}
+.conatiner_img_2_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+  
+    background-image: url(/totallandingpage/moon-showcase/top-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700;
+}
+
+.conatiner_img_3_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    background-image: url(/totallandingpage/moon-showcase/top-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700;
+}
+
+.conatiner_img_4_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    background-image: url(/totallandingpage/moon-showcase/top-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700;
+}
+
+.conatiner_img_5_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    background-image: url(/sun.jpag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    
+}
+.conatiner_sun_1_inside{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+    background-image: url(/totallandingpage/moon-showcase/center-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px;
+}
+
+.conatiner_img_6_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    background-image: url(/totallandingpage/moon-showcase/bottom-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600;
+}
+
+.conatiner_img_7_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    background-image: url(/totallandingpage/moon-showcase/bottom-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600;
+}
+
+.conatiner_img_8_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    background-image: url(/totallandingpage/moon-showcase/bottom-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600;
+}
+.conatiner_img_9_p3_center_{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    background-image: url(/totallandingpage/moon-showcase/bottom-0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conatiner_last_p3_{
+    margin: 10px;
+    height: 468vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conatiner_p_1_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_6{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_9_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_2_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_7{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_10_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_3_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_8{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_11_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_4_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_9{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_12_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+
+.conatiner_p_5_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_10{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_13_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_6_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_11{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_14_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_7_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_12{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_15_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_8_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading_p1_13{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+.heading_p1_16_pre{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.conatiner_p_9_p3_last{
+    margin: 10px;
+    height: 52vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/* page-4  */
+
+.conatiner_from_moon_p4{
+    height: 150vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000;
+  
+   
+
+}
+/* main  */
+.conatiner_contents_extra_imgs_p4{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/totallandingpage/moon-showcase/Asteroid-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+}
+
+/* top heading */
+.conatiner_p4_heading_{
+    height: 20vh;
+    width: 100vw;
+ 
+}
+
+
+/* sun and moon content */
+.conatiner_Sun_p4_{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+.coantiner_sun_img_p4{
+    height: 65vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/totallandingpage/moon-showcase/hot-sun.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: center;
+    
+}
+
+
+
+
+
+.conatiner_heading_p4{
+    height: 65vh;
+    width: 60vw;
+    display: flex;
+    justify-content: start;
+    align-items: safe;
+    flex-direction: column;
+
+}
+.content_box_heading_p4{
+    position: relative;
+    top: 190px;
+    left: 140px;
+    margin: 10px;
+    height:15vh ;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.heading_p4_1{
+    position: relative;
+    left: 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+    white-space: 10px;
+    text-wrap: nowrap;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px;
+    color: white;
+    
+}
+.heading_p4_2{
+    position: relative;
+    left: 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+    white-space: 10px;
+    text-wrap: nowrap;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px;
+    color: white;
+}
+.heading_p4_3{
+    position: relative;
+    left: 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+    white-space: 10px;
+    text-wrap: nowrap;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px;
+    color: white;
+}
+.heading_p4_4{
+    position: relative;
+    left: 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+    white-space: 10px;
+    text-wrap: nowrap;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px;
+    color: white;
+}
+.heading_p4_5{
+    position: relative;
+    left: 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+    white-space: 10px;
+    text-wrap: nowrap;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px;
+    color: white;
+}
+.content_box_paragraph_p4{
+    position: relative;
+    top: 40px;
+    margin: 10px;
+    height:40vh ;
+    width: 59vw;
+    display: flex;
+    justify-content: start;
+    align-items: safe;
+    flex-direction: column;
+}
+.paragraph_p4_1{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+
+
+
+/* moons--  */
+.conatiner_top_and_bottom_moons_imgs_p4{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conatiner_top_moons_imgs_p4{
+    position: relative;
+    top: 90px;
+    
+    height: 30vh;
+    width: 100vw;
+    background-image: url(/totallandingpage/moon-showcase/background_footer_top.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    
+}
+.conatiner_bottom_moons_imgs_p4{
+   
+    height: 40vh;
+    width: 100vw;
+    background-image: url(/totallandingpage/moon-showcase/background_footer_bottom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1900px;
+
+}
+
+
+
+/* p5 daetils page  */
+.conatiner_p5{
+    height: 138vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.conatiner_heading_main_p5{
+    height: 38vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    background: #000;
+    width: 100vw;
+    
+}
+.heading_content_p5{
+    font-size: 7vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+
+}
+.conatiner_deatils_main_p5_top_{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #000;
+}
+.conatiner_top_details_1{
+    height: 100vh;
+    width: 33.35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    
+    
+
+}
+.conatiner_h_nd_p_overlay_1{
+    height: 100vh;
+    width: 33.35vw;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #d9d4d447;
+   background: transparent;
+   border-radius: 2px;
+   transition-duration: .500s;
+   transition-delay: .500s;
+   transition-timing-function: ease-in-out;
+  
+
+   
+
+ 
+}
+
+.conatiner_heading_overly_1{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.haeding_overlay_1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    color: white;
+}
+.conatiner_paragraph_overlay_1{
+    position: relative;
+    top: 190px;
+    margin: 20px;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_overlay_1{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conatiner_top_details_2{
+    height: 100vh;
+    width: 33.35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    
+    
+
+}
+.conatiner_h_nd_p_overlay_2{
+    height: 100vh;
+    width: 33.35vw;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #d9d4d447;
+   background: transparent;
+   border-radius: 2px;
+   transition-duration: .500s;
+   transition-delay: .500s;
+   transition-timing-function: ease-in-out;
+  
+
+   
+
+ 
+}
+
+.conatiner_heading_overly_2{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.haeding_overlay_2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    color: white;
+}
+.conatiner_paragraph_overlay_2{
+    position: relative;
+    top: 190px;
+    margin: 20px;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_overlay_2{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+ 
+}
+
+
+
+
+
+
+.conatiner_top_details_3{
+    height: 100vh;
+    width: 33.35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    
+    
+
+}
+.conatiner_h_nd_p_overlay_3{
+    height: 100vh;
+    width: 33.35vw;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #d9d4d447;
+   background: transparent;
+   border-radius: 2px;
+   transition-duration: .500s;
+   transition-delay: .500s;
+   transition-timing-function: ease-in-out;
+  
+
+   
+
+ 
+}
+
+.conatiner_heading_overly_3{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.haeding_overlay_3{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    color: white;
+}
+.conatiner_paragraph_overlay_3{
+    position: relative;
+    top: 190px;
+    margin: 20px;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_overlay_3{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+ 
+}
+
+
+
+
+/* down - - - - - - - - - - - - - - - - - - - - - - - - -- - - -  - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - --  --  */
+
+
+
+/* down - 1 */
+.container_details_main_p5_down_{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #000;
+ 
+}
+.conatiner_down_details_1{
+    height: 100vh;
+    width: 33.35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    
+
+}
+.conatiner_h_nd_p_overlay_down_1{
+    height: 100vh;
+    width: 33.35vw;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #d9d4d447;
+   background: transparent;
+   border-radius: 2px;
+   transition-duration: .500s;
+   transition-delay: .500s;
+   transition-timing-function: ease-in-out;
+  
+
+
+ 
+}
+.conatiner_heading_overly_down_1{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.haeding_overlay_down_1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    color: white;
+}
+.conatiner_paragraph_overlay_down_1{
+    position: relative;
+    top: 190px;
+    margin: 20px;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_overlay_down_1{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+ 
+}
+
+
+
+
+
+
+/* down - 2 */
+.conatiner_down_details_2{
+    height: 100vh;
+    width: 33.35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    
+
+}
+.conatiner_h_nd_p_overlay_down_2{
+    height: 100vh;
+    width: 33.35vw;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #d9d4d447;
+   background: transparent;
+   border-radius: 2px;
+   transition-duration: .500s;
+   transition-delay: .500s;
+   transition-timing-function: ease-in-out;
+  
+
+
+ 
+}
+.conatiner_heading_overly_down_2{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.haeding_overlay_down_2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    color: white;
+}
+.conatiner_paragraph_overlay_down_2{
+    position: relative;
+    top: 240px;
+    margin: 20px;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_overlay_down_2{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+ 
+}
+
+
+
+
+
+/* down - 3 */
+.conatiner_down_details_3{
+    height: 100vh;
+    width: 33.35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    
+
+}
+.conatiner_h_nd_p_overlay_down_3{
+    height: 100vh;
+    width: 33.35vw;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #d9d4d447;
+   background: transparent;
+   border-radius: 2px;
+   transition-duration: .500s;
+   transition-delay: .500s;
+   transition-timing-function: ease-in-out;
+  
+
+
+ 
+}
+.conatiner_heading_overly_down_3{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.haeding_overlay_down_3{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    color: white;
+}
+.conatiner_paragraph_overlay_down_3{
+    position: relative;
+    top: 190px;
+    margin: 20px;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_overlay_down_3{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+ 
+}
